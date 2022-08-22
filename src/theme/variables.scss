@@ -74,6 +74,21 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+// youtube
+  --ion-color-youtube:#ff0011;
+  --ion-color-youtube-rgb:255,0,17;
+  --ion-color-youtube-contrast:#ffffff;
+  --ion-color-youtube-contrast-rgb:255,255,255;
+  --ion-color-youtube-shade:#e0000f;
+  --ion-color-youtube-tint:#ffla29;
+
+  //github
+  --ion-color-github: #c038ff;
+	--ion-color-github-rgb: 192,56,255;
+	--ion-color-github-contrast: #ffffff;
+	--ion-color-github-contrast-rgb: 255,255,255;
+	--ion-color-github-shade: #a931e0;
+	--ion-color-github-tint: #c64cff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -179,7 +194,7 @@
     --ion-color-step-900: #e6e6e6;
     --ion-color-step-950: #f2f2f2;
 
-    --ion-item-background: #000000;
+    --ion-item-background: transparent;
 
     --ion-card-background: #1c1c1d;
   }
@@ -233,4 +248,21 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-youtube{
+    --ion-color-base:var(--ion-color-youtube)!important;
+    --ion-color-base-rgb:var(--ion-color-youtube-rgb)!important;
+    --ion-color-contrast:var(--ion-color-youtube-contrast)important;
+    --ion-color-contrast-rgb:var(-- ion-color-youtube-contrast-rgb)!important;
+   --ion-color-shade:var(--ion-color-youtube-shade)!important;
+   --ion-color-tint:var(--ion-color-youtube-tint)!important;
+}
+.ion-color-github{
+  --ion-color-base:var(--ion-color-github)!important;
+  --ion-color-base-rgb:var(--ion-color-github-rgb)!important;
+  --ion-color-contrast:var(--ion-color-github-contrast)important;
+  --ion-color-contrast-rgb:var(-- ion-color-github-contrast-rgb)!important;
+ --ion-color-shade:var(--ion-color-github-shade)!important;
+ --ion-color-tint:var(--ion-color-github-tint)!important;
 }
